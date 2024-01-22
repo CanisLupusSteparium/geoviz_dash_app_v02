@@ -1,0 +1,10 @@
+<VTKFile type="vtkMultiBlockDataSet" version="1.0" byte_order="LittleEndian" header_type="UInt64">
+  <vtkMultiBlockDataSet>
+    <DataSet index="0" file="structure_contours/structure_contours_0_0.vtp"/>
+    <DataSet index="1" file="structure_contours/structure_contours_1_0.vtp"/>
+    <DataSet index="2" file="structure_contours/structure_contours_2_0.vtp"/>
+    <DataSet index="3" file="structure_contours/structure_contours_3_0.vtp"/>
+    <DataSet index="4" file="structure_contours/structure_contours_4_0.vtp"/>
+    <DataSet index="5" file="structure_contours/structure_contours_5_0.vtp"/>
+  </vtkMultiBlockDataSet>
+</VTKFile>

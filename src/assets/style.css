@@ -1,0 +1,31 @@
+.navbar {
+  background-color: #f8f9fa;
+  overflow: hidden;
+  padding: 10px 10px;
+}
+
+.navbar .row {
+  display: flex;
+  align-items: center;
+}
+
+.navbar h2 {
+  font-size: 24px;
+  color: #007bff;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  background-color: #f8f9fa;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.15);
+  padding: 20px;
+}
+
+/* Content Styles */
+.content {
+  padding: 20px;
+}
+
+.content .graph {
+  margin-bottom: 20px;
+}
