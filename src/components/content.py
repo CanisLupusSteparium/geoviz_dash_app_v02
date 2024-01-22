@@ -53,7 +53,9 @@ def create_plotly_figure(traces):
 
 
 def Content():
-    vtk_files = glob.glob('src/data/*.vtp')  # List of VTK files
+    #vtk_files = glob.glob('src/data/*.vtp')  # List of VTK files
+    data_dir = os.path.join(os.path.dirname(__file__), '../data/')
+    vtk_files = glob.glob(os.path.join(data_dir, '*.vtp'))
     traces = load_vtk_data(vtk_files)
 
     plotly_figure = create_plotly_figure(traces)
