@@ -10,6 +10,9 @@ import plotly.graph_objs as go
 # Initialize the Dash app
 app = dash.Dash(__name__)
 
+# Expose the server for deployment
+server = app.server
+
 # Define the app layout
 app.layout = html.Div([
     Navbar(),
